@@ -41,3 +41,13 @@ The queries in this repository run against the `hr_analytics` schema, which cons
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 Advanced SQL project implementing window functions...
+
+
+
+
+## 🗄️ Database Schema Overview
+
+| Table Name | Primary Key | Key Analytical Columns | Description |
+| :--- | :--- | :--- | :--- |
+| **`employee_data`** | `EmpID` | `DepartmentType`, `BusinessUnit`, `StartDate`, `EmployeeStatus` | Core workforce demographics, hiring dates, and organizational units. |
+| **`training_and_development_data`** | `EmployeeID` | `TrainingDate`, `TrainingProgramName`, `TrainingCost` | Historical employee training sessions, program details, and financial investments. |
