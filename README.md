@@ -1,3 +1,5 @@
+https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset
+
 # Hr-analytics-advanced-window-functions-sql
 Advanced SQL project implementing window functions (ROW_NUMBER, NTILE, LAG, running totals) and CTE-CASE conditional logic for workforce HR analytics.
 
@@ -22,3 +24,10 @@ This repository contains production-grade SQL scripts engineered to perform adva
 
 ## Repository Structure
 * `hr_analytics_advanced_window_functions.sql` - Main script containing all analytical queries, CTEs, window frames, and conditional case logic.
+
+* ## 📂 Dataset Information
+The queries in this repository run against the `hr_analytics` schema, which consists of two primary tables:
+* **`employee_data`**: Contains staff demographics, hire dates, department classifications, and business units.
+* **`training_and_development_data`**: Contains training session records, program names, costs, and training dates linked via `EmpID` = `EmployeeID`.
+
+🔗 **Original Dataset Source:** You can download the raw dataset used for this project directly from [Kaggle Dataset](https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset)
