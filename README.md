@@ -31,3 +31,13 @@ The queries in this repository run against the `hr_analytics` schema, which cons
 * **`training_and_development_data`**: Contains training session records, program names, costs, and training dates linked via `EmpID` = `EmployeeID`.
 
 🔗 **Original Dataset Source:** You can download the raw dataset used for this project directly from [Kaggle Dataset](https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset)
+
+
+
+# Hr-analytics-advanced-window-functions-sql
+
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/Advanced_SQL-Window_Functions-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+Advanced SQL project implementing window functions...
